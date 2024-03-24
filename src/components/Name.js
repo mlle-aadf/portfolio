@@ -17,8 +17,6 @@ const NameLink = styled(NavLink)`
     display: block;
     align-items: center;
     float: right;
-    /* position: sticky;
-    position: -webkit-sticky; */
     top:0;
     right: 0;
 

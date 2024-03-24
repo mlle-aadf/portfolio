@@ -59,7 +59,7 @@ const MobileStyle = {
 
 const BigScreenStyle = {
     position: "fixed",
-    top: "25%",
+    top: "20%",
     left: "5%",
     width: "90vw"
 }

@@ -3,7 +3,7 @@ import Name from "./Name"
 // https://react-type-animation.netlify.app/options
 import { TypeAnimation } from "react-type-animation" 
 
-import image from "../keys - Copy.jpg"
+import image from "../data/keys.jpg"
 
 import pdf from "../data/CV2021.pdf"
 
@@ -22,9 +22,7 @@ const About = () => {
         devType: ['full_stack', 'freelance'],
         stack: 'MERN',
         links: [ `
-    const last = String.raw`
-    
-    }`
+    const last = `\n\n    }`
 
     return(
         <>
@@ -34,23 +32,10 @@ const About = () => {
             <img src={image} className="photo" alt="a code ninja"/>
 
             <div className="const">
-                
-           
                 <pre> 
                 {first}'{ghLink}','{email}', '{CV}'{close}
                 {last}
                 </pre>
-
-            <div>
-            
-            {/* <pre>
-            location: 'Montréal, Canada',
-            devType: ['full_stack', 'freelance'],
-            stack: 'MERN'
-            </pre>
-            links: {ghLink}
-            {line4} */}
-            </div>
         </div>
 
         <NavBar/>

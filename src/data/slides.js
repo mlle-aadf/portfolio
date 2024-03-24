@@ -1,10 +1,18 @@
+import bunny_reloaded from "../data/bunny_reloaded.gif"
+import password_generator from "../data/password_generator.png"
+import emoji_fighter from "../data/emoji_fighter.png"
+import jelly_form from "../data/jelly_form.png"
+import black_jack from "../data/black_jack.png"
+import jellery from "../data/jellery.png"
+
 const slides = [
         
-    {src: "https://images.pexels.com/photos/1086584/pexels-photo-1086584.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "jellyfish", link:"https://codepen.io/mlle-aadf/pen/PoXmrNK"}, 
-    {src:"https://picfiles.alphacoders.com/296/thumb-1920-296020.jpg", title: "project X"}, 
-    {src:"https://images.pexels.com/photos/1086583/pexels-photo-1086583.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "project X"}, 
-    {src:"https://images.pexels.com/photos/2017018/pexels-photo-2017018.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "project X"},
-    {src: "https://images.pexels.com/photos/3699431/pexels-photo-3699431.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "project X"},
+    {src: `${jellery}`, title: "jelly_gallery", link: "https://codepen.io/mlle-aadf/pen/PoXmrNK"},
+    {src: `${bunny_reloaded}`, title: "bunny_reloaded", link:"https://bunny-reloaded.vercel.app/"}, 
+    {src: `${password_generator}`, title: "password_generator", link:"https://codepen.io/mlle-aadf/pen/qBLKWzO"}, 
+    {src:`${black_jack}`, title: "black_jack", link: "https://codepen.io/mlle-aadf/pen/eYbWwdo"}, 
+    {src:`${emoji_fighter}`, title: "emoji_fighter", link: "https://codepen.io/mlle-aadf/pen/MWZmMVd"},
+    {src: `${jelly_form}`, title: "jelly_form", link: "https://codepen.io/mlle-aadf/pen/MWzMMOv"},
 ]
 
 export default slides

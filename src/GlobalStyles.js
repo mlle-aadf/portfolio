@@ -16,6 +16,7 @@ body {
         max-width: 100vw;
         background-color: black;
         color: var(--text);
+   
 
     @media screen and (min-width: 640px){
         font-size: 1.5rem;

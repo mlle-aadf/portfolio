@@ -1,13 +1,16 @@
 - [x] links onHover
+- [ ] update CV version
+- [ ] catchall 404
 
-- [ ] about page text
-- [ ] contact page, em, gh, linkedin, CV
+- [x] about page text
+- [] contact page, em, gh, linkedin, CV
 - [ ] responsive / media queries (aboutpage)
 - [ ] move all styles to one file?
 
 
 ~ versions FR
 ~ typewriter + glitch effect
+// https://www.npmjs.com/package/typeit-react
 
 skills : 
 HTML
