@@ -1,4 +1,39 @@
-# Getting Started with Create React App
+- [x] links onHover
+
+- [ ] about page text
+- [ ] contact page, em, gh, linkedin, CV
+- [ ] responsive / media queries (aboutpage)
+- [ ] move all styles to one file?
+
+
+~ versions FR
+~ typewriter + glitch effect
+
+skills : 
+HTML
+CSS
+JAVASCRIPT
+React
+NodeJS
+MongoDB
+Git
+Insomnia
+
+
+const Alexandra = {
+    
+    developer: fullstack, freelance
+
+    type: ‘full-stack’,
+    location: ‘Montréal, Canada’,
+    properties: [‘creative’, 
+                 ‘geek’,       
+                 ‘polyglot’];
+}
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +102,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
