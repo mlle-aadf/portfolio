@@ -8,7 +8,8 @@ import {
 import Home from "./Home";
 import About from "./About";
 import Gallery from "./Gallery";
-import Contact from "./Contact";
+// import Contact from "./Contact";
+import Missing from "./Missing";
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/about" element={<About />}/>
         <Route path="/gallery" element={<Gallery/>}/>
         {/* <Route path="/contact" element={<Contact />}/> */}
+        <Route path="*" element={<Missing/>}/>
 
       </Routes>
       

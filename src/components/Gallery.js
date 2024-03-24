@@ -1,6 +1,6 @@
 import Name from "./Name"
 import NavBar from "./NavBar"
-import slides from "../data/slides"
+import slides from "../data/slides/slides"
 
 import Carousel from "nuka-carousel"
 import { useMediaQuery } from "react-responsive"

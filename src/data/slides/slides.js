@@ -1,9 +1,9 @@
-import bunny_reloaded from "../data/bunny_reloaded.gif"
-import password_generator from "../data/password_generator.png"
-import dice from "../data/dice.gif"
-import jelly_form from "../data/jelly_form.png"
-import black_jack from "../data/black_jack.png"
-import jellery from "../data/jellery.png"
+import bunny_reloaded from "../slides/bunny_reloaded.gif"
+import password_generator from "../slides/password_generator.png"
+import dice from "../slides/dice.gif"
+import jelly_form from "../slides/jelly_form.png"
+import black_jack from "../slides/black_jack.png"
+import jellery from "../slides/jellery.png"
 
 const slides = [
         
