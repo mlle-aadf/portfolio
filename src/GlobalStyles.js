@@ -11,13 +11,20 @@ body {
         max-width: 100vw;
         background-color: black;
         color: rgb(221, 221, 221);
-   
 
     @media screen and (min-width: 640px){
         font-size: 1.5rem;
     }
 }
 	
+.tag  {
+    color: white;
+    text-decoration: none;
+    &:hover {
+        scale: 110%;
+        color: aqua
+    }
+}
 
 .navbar {
     display: inline-flex;
@@ -59,7 +66,7 @@ body {
     display: inline-block;
     @media screen and (min-width: 640px)
     {
-       margin-right: 1rem;
+        margin-right: 1rem;
     }
 }
 
