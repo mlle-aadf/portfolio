@@ -79,7 +79,7 @@ body {
     {
         flex-direction: row;
         height: 40vh;
-        margin: -4rem 0 0 -1rem;
+        margin: -5rem 0 0 -1rem;
     }
 }
 
