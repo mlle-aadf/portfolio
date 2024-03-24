@@ -3,11 +3,6 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 
-        :root {
-            --main: rgb(25, 25, 25);
-            --text: rgb(221, 221, 221);
-        }
-
 body {
     font-family: "Source Code Pro", monospace;
         font-weight: 200;
@@ -15,7 +10,7 @@ body {
         max-height: 100vh;
         max-width: 100vw;
         background-color: black;
-        color: var(--text);
+        color: rgb(221, 221, 221);
    
 
     @media screen and (min-width: 640px){
@@ -25,7 +20,6 @@ body {
 	
 
 .navbar {
-    
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +93,6 @@ body {
 }
 
 
-
 .slider-control-centerleft, .slider-control-centerright {
     position: fixed;
     top: 50%;
@@ -107,15 +100,6 @@ body {
         scale: 150%;
     }
 }
-
-    /* @media all and (min-width: 1024px) and (max-width: 1280px) { }
- 
-@media all and (min-width: 768px) and (max-width: 1024px) { }
-  */
-/* @media all and (min-width: 480px) and (max-width: 768px) { } */ 
- 
-/* @media only screen and (min-width: 320px) and (max-width: 479px){ */
-    
 `
 
 export default GlobalStyles;

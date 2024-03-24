@@ -14,7 +14,6 @@ const NavBar = () =>  {
             <StyledLink to={'/contact'} >contact</StyledLink> */}
         </div>
         </>
-
     )
 }
 

@@ -6,7 +6,6 @@ import Carousel from "nuka-carousel"
 import { useMediaQuery } from "react-responsive"
 
 
-
 const Gallery = () =>  {
 
     const params = {
@@ -18,9 +17,7 @@ const Gallery = () =>  {
         animation: "zoom"
     }
 
-      const isMobile = useMediaQuery({ query: '(max-width: 600px)' })
-    //   const isBigScreen = useMediaQuery({ query: '(min-width: 1200px)' })
-    //   const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+    const isMobile = useMediaQuery({ query: '(max-width: 600px)' })
     
     return(
         <>
@@ -33,28 +30,23 @@ const Gallery = () =>  {
         
         {slides.map((slide)=> 
             <div>
-                <a href={slide.link} target="blank"><img src={slide.src} key={slide} className="slide" style={{display:"block", margin:"0 auto"}}/></a>
+                <a href={slide.link} target="blank"><img src={slide.src} key={slide} alt={slide.alt} className="slide" style={{display:"block", margin:"0 auto"}}/></a>
                 <h4 style={{textAlign: "center", marginTop: "0.25rem"}}>{slide.title}</h4>
             </div>
-        )
-        }
-        
+        )}
 
         </Carousel>
         <NavBar/>
         </>
-
     )
 }
 
 
 const MobileStyle = {
-    
     position: "fixed",
     top: "35%",
     width: "80vw",
     left: "10%"
- 
 }
 
 const BigScreenStyle = {
@@ -63,8 +55,6 @@ const BigScreenStyle = {
     left: "5%",
     width: "90vw"
 }
-
-
 
 
 export default Gallery
