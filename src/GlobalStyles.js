@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-// import image from "../src/keys - Copy.jpg"
 
 
 const GlobalStyles = createGlobalStyle`
@@ -15,7 +14,6 @@ body {
         font-size: 1rem;
         max-height: 100vh;
         max-width: 100vw;
-        /* background-color: rgb(25, 25, 25); */
         background-color: black;
         color: var(--text);
 
@@ -83,9 +81,6 @@ body {
     }
 }
 
-.carousel {
-    /* border: 2px solid fuchsia; */
-}
 
 .slide {
     width: 75vw;

@@ -1,28 +1,28 @@
-// import { TypeAnimation } from "react-type-animation"
 import NavBar from "./NavBar"
 import Name from "./Name"
 // https://react-type-animation.netlify.app/options
 import { TypeAnimation } from "react-type-animation" 
 
-// import image from "../IMG_20220226_230613_813.jpg"
 import image from "../keys - Copy.jpg"
+
+import pdf from "../data/CV2021.pdf"
 
 const About = () => {
     
-    const line1 = String.raw`
+    const ghLink = <a href="https://github.com/mlle-aadf" target="_blank">gitHub</a>
+    const open = String.raw` [`
+    const close = String.raw` ]`
+    const email = <a href="mailto:mlle.aadf@pm.me">mlle.aadf@pm.me</a>
+    const CV = <a href={pdf} target="_blank">CV</a>
+
+    const first =`
     const Alexandra = {
-    `
-    const line2 = String.raw`
+
         location: 'Montréal, Canada',
         devType: ['full_stack', 'freelance'],
         stack: 'MERN',
-    `
-    const open = String.raw` [`
-    const close = String.raw` ]`
-    const ghLink = <a href="https://github.com/mlle-aadf" target="blank">gitHub</a>
-    const email = String.raw`mlle.aadf@pm.me`
-    const CV = "CV"
-    const line4 = String.raw`
+        links: [ `
+    const last = String.raw`
     
     }`
 
@@ -34,10 +34,11 @@ const About = () => {
             <img src={image} className="photo" alt="a code ninja"/>
 
             <div className="const">
-                <pre>
-                {line1}
-                {line2}    links:{open} {ghLink}, {email}, {CV} {close}
-                {line4}
+                
+           
+                <pre> 
+                {first}'{ghLink}','{email}', '{CV}'{close}
+                {last}
                 </pre>
 
             <div>
