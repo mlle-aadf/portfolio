@@ -7,7 +7,7 @@ import Name from "./Name"
 import { TypeAnimation } from "react-type-animation" 
 
 import image from "../data/keys.jpg"
-import pdf from "../data/CV2021.pdf"
+import pdf from "../data/CV2024.pdf"
 
 const About = () => {
     
