@@ -7,7 +7,8 @@ import Name from "./Name"
 // import { TypeAnimation } from "react-type-animation" 
 
 import image from "../data/keys.jpg"
-import CV2024 from "../../src/CV2024.pdf"
+import CV2024 from "../data/CV2024.pdf"
+// import CV2024 from "../../src/CV2024.pdf"
 
 const About = () => {
     
