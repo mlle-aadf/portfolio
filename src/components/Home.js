@@ -9,7 +9,7 @@ const Home = () => {
           <ADF>ADF | </ADF>
           <TypeAnimation
             // sequence={["code ninja", 1000, "web wizard", 1000, "full-stack developer"]}
-            sequence={["<insert clever tagline here/> "]}
+            sequence={["<> insert clever tagline here </> "]}
             wrapper="span"
             speed={35}
               style={{ display: 'inline-block' }}
