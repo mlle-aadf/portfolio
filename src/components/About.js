@@ -7,7 +7,7 @@ import Name from "./Name"
 // import { TypeAnimation } from "react-type-animation" 
 
 import image from "../data/keys.jpg"
-import CV2024 from "../data/CV2024.pdf"
+import ADF_CV from "../data/Alexandra_de_Fourestier_CV.pdf"
 // import CV2024 from "../../src/CV2024.pdf"
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
     const close = String.raw` ]`
     const email = <a href="mailto:mlle.aadf@pm.me"><MdEmail className="tag"/></a>
     const discord = <a href="https://discordapp.com/users/1111870664949891102" target="_blank"><FaDiscord className="tag"/></a>
-    const CV = <a href={CV2024} target="_blank" className="tag">CV</a>
+    const CV = <a href={ADF_CV} target="_blank" className="tag">CV</a>
 
 
     // stack/skills ---> MERN, js html css figma git
@@ -36,7 +36,7 @@ const About = () => {
         <div className="about">
             <img src={image} className="photo" alt="a code ninja"/>
             <div className="const">
-                <pre> 
+                <pre > 
                 {first}'{linkedIn}','{ghLink}','{discord}','{email}','{CV}'{close}
                 {last}
                 </pre>
