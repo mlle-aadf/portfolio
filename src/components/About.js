@@ -3,13 +3,10 @@ import { FaDiscord, FaLinkedin } from "react-icons/fa"
 import { MdEmail } from "react-icons/md";
 import NavBar from "./NavBar"
 import Name from "./Name"
-// https://react-type-animation.netlify.app/options
 // import { TypeAnimation } from "react-type-animation" 
 
 import image from "../data/keys.jpg"
-// import ADF_CV from "../data/"
 import resume from "../../src/data/Alexandra_ de_ Fourestier_CV.pdf"
-// import CV2024 from "../../src/CV2024.pdf"
 
 const About = () => {
     
