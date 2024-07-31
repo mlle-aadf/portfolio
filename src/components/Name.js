@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom"
 const Name = () => {
     return(
         <header style={{NameLink}}>
-            <NameLink to={'/'}><p>AADF |</p></NameLink>
+            <NameLink to={'/'}><p>ADF |</p></NameLink>
             {/* <img src={image} style={{height:"2rem"}}></img> */}
         </header>
     )
