@@ -1,5 +1,5 @@
 <h1 align="center">Hello world🐧 I'm Alexandra</h1>
-<h3 align="center">A creative code ninja (full-s</h3>
+<h3 align="center">A creative code ninja (full-stack developer)</h3>
 
 - 🔭 I’m currently working on [Fluffy's Donuts](https://github.com/Jbacani4/FluffyDonuts)
 
