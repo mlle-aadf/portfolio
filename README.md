@@ -1,7 +1,7 @@
 <h1 align="center">Hello world🐧 I'm Alexandra</h1>
 <h3 align="center">A creative code ninja (full-stack developer)</h3>
 
-- 🔭 I’m currently working on [Fluffy's Donuts](https://github.com/Jbacani4/FluffyDonuts)
+- 🔭 I’m currently working on [Fluffy's Donuts](https://fluffy-donuts.vercel.app/)
 
 - 🌱 I’m currently learning **React Native**
 
