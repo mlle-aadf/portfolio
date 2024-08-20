@@ -1,16 +1,18 @@
 <h1 align="center">Hello world🐧 I'm Alexandra</h1>
-<h3 align="center">A creative code ninja</h3>
+<h3 align="center">A creative code ninja (full-s</h3>
+
+- 🔭 I’m currently working on [Fluffy's Donuts](https://github.com/Jbacani4/FluffyDonuts)
 
 - 🌱 I’m currently learning **React Native**
 
-- 👨‍💻 All of my projects are available at [https://portfolio-pied-seven-12.vercel.app/](https://portfolio-pied-seven-12.vercel.app/)
+- 👨‍💻 All of my projects are available at [https://aadf.ca/](https://aadf.ca/)
 
 - 📫 How to reach me **mlle.aadf@pm.me**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.linkedin.com/in/mlle-aadf" target="_blank"> <img align="center" width="256" alt="LinkedIn Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/256px-LinkedIn_Logo.svg.png?20170711102837"></a>" alt="@mlle-aadf" height="30" width="40" /></a>
-<a href="https://discordapp.com/users/1111870664949891102" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="mlle.aadf" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/mlle-aadf" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mlle-aadf" height="30" width="40" /></a>
+<a href="https://discord.gg/mlle.aadf" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="mlle.aadf" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">I code with:</h3>
