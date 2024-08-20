@@ -5,12 +5,12 @@ const GlobalStyles = createGlobalStyle`
 
 body {
     font-family: "Source Code Pro", monospace;
-        font-weight: 200;
-        font-size: 1rem;
-        max-height: 100vh;
-        max-width: 100vw;
-        background-color: black;
-        color: rgb(221, 221, 221);
+    font-weight: 200;
+    font-size: 1rem;
+    max-height: 100vh;
+    max-width: 100vw;
+    background-color: black;
+    color: rgb(221, 221, 221);
 
     @media screen and (min-width: 640px){
         font-size: 1.5rem;
@@ -51,24 +51,45 @@ body {
     justify-content: center;
     width: 95vw;
     height: 70vh;
-
+    font-size: 0.9rem;
+    
+    /* font-weight: lighter; */
+    line-height: 200%;
+    /* border: 2px solid fuchsia; */
+    
+    animation: fadeIn 5s ease-in 0 infinite;
+    
     @media screen and (min-width: 640px)
     {
         margin: 5rem 0.5rem;
+        font-size: 1.1rem;
         flex-direction: row;
         align-items: center;
     }
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 .photo {
     height: 35vh;
-    /* border-radius: 5px; */
+    margin-top: 1rem;
     display: inline-block;
+    
     @media screen and (min-width: 640px)
     {
         margin-right: 1rem;
     }
 }
+
+
 
 
 .const {
@@ -79,7 +100,7 @@ body {
     {
         flex-direction: row;
         height: 40vh;
-        margin: -5rem 0 0 -1rem;
+        margin: -1rem 0 0 0;
     }
 }
 
@@ -107,6 +128,10 @@ body {
         scale: 150%;
     }
 }
+
+
 `
+
+
 
 export default GlobalStyles;

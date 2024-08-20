@@ -10,8 +10,6 @@ const NavBar = () =>  {
             <StyledLink to={'/about'} >about</StyledLink>
             <p>|</p>
             <StyledLink to={'/gallery'} >gallery</StyledLink>
-            {/* <p>|</p>
-            <StyledLink to={'/contact'} >contact</StyledLink> */}
         </div>
         </>
     )
@@ -21,10 +19,12 @@ const StyledLink = styled(NavLink)`
     margin: 1rem;
     text-decoration: none;
     color: var(--text);
+    font-family: "Montserrat", sans-serif;
     &:hover {
-        font-weight: bold;
+        font-weight: 400;
     }
     &:active {
+        font-weight: 400;
         border-bottom: 2px solid white;
     }
 `

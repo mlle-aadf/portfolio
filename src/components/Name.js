@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom"
 const Name = () => {
     return(
         <header style={{NameLink}}>
-            <NameLink to={'/'}><p>ADF |</p></NameLink>
+            <NameLink to={'/'}><p>A|ADF </p></NameLink>
             {/* <img src={image} style={{height:"2rem"}}></img> */}
         </header>
     )
@@ -24,10 +24,11 @@ const NameLink = styled(NavLink)`
     line-height: 1;
     text-decoration: none;
     color: var(--text);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
     font-size: 2rem;
     &:hover {
         font-weight: 400;
-        /* border-bottom: 2px solid var(--text); */
     }
 
   @media screen and (min-width: 640px) {

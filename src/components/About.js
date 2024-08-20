@@ -16,17 +16,18 @@ const About = () => {
     const email = <a href="mailto:mlle.aadf@pm.me"><MdEmail className="tag"/></a>
     const CV = <a href={resume} target="_blank" className="tag">CV</a>
     const close = String.raw` ]`
-
-
-    // stack/skills ---> MERN, js html css figma git
+    
     const first =`
-    const Alexandra = {
+    var Alexandra = {
 
-        location: 'Montréal, Canada',
-        devType: ['full_stack', 'freelance'],
-        stack: 'MERN',
+        devType: ["full_stack", "freelance"],
+        skills: ["collaboration",
+                 "thinking outside the box", 
+                 "solving puzzles",
+                 "awkward silences"]
+        toolkit: ["MERN", "Figma", "git"], 
         links: [ `
-    const last = `\n\n    }`
+    const last = `\n    }`
 
     return(
         <>
