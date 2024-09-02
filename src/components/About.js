@@ -5,7 +5,7 @@ import NavBar from "./NavBar"
 import Name from "./Name"
 import { TypeAnimation } from "react-type-animation" 
 
-import image from "../data/keys.jpg"
+import image from "../data/i1.jpg"
 import resume from "../../src/data/Alexandra_ de_ Fourestier_CV.pdf"
 
 const About = () => {
@@ -27,14 +27,14 @@ const About = () => {
                  "awkward silences"]
         toolkit: ["MERN", "Figma", "git"], 
         links: [ `
-    const last = `\n    }`
+    const last = `\n \n    }`
 
     return(
         <>
         <Name/>
         <div className="about">
             <img src={image} className="photo" alt="a code ninja"/>
-            <div className="const">
+            <div className="var">
                 <pre > 
                 {first}'{linkedIn}','{ghLink}','{discord}','{email}','{CV}'{close}
                 {last}

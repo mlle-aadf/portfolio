@@ -92,7 +92,7 @@ body {
 
 
 
-.const {
+.var {
     line-Height: 1.5;
     margin: 0.5rem 0 -2rem -2rem;
 
@@ -100,7 +100,7 @@ body {
     {
         flex-direction: row;
         height: 40vh;
-        margin: -1rem 0 0 0;
+        margin: -3rem 0 0 0;
     }
 }
 
