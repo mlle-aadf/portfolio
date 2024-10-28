@@ -1,12 +1,11 @@
-import { IoLogoGithub } from "react-icons/io"
-import { FaDiscord, FaLinkedin } from "react-icons/fa"
+import { FaDiscord, FaLinkedin } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
-import NavBar from "./NavBar"
-import Name from "./Name"
-import { TypeAnimation } from "react-type-animation" 
+import Name from "./Name";
+import NavBar from "./NavBar";
 
-import image from "../data/i1.jpg"
-import resume from "../../src/data/Alexandra_ de_ Fourestier_CV.pdf"
+import resume from "../../src/data/Alexandra_ de_ Fourestier_CV.pdf";
+import image from "../data/i1.jpg";
 
 const About = () => {
     
@@ -18,30 +17,30 @@ const About = () => {
     const close = String.raw` ]`
     
     const first =`
-    var Alexandra = {
+    const Alexandra = {
 
         devType: ["full_stack", "freelance"],
         skills: ["collaboration",
                  "thinking outside the box", 
                  "solving puzzles",
-                 "awkward silences"]
+                 "awkward silences"],
         toolkit: ["MERN", "Figma", "git"], 
         links: [ `
     const last = `\n \n    }`
 
     return(
         <>
-        <Name/>
-        <div className="about">
-            <img src={image} className="photo" alt="a code ninja"/>
-            <div className="var">
-                <pre > 
-                {first}'{linkedIn}','{ghLink}','{discord}','{email}','{CV}'{close}
-                {last}
-                </pre>
+            <Name/>
+            <div className="about">
+                <img src={image} className="photo" alt="a code ninja"/>
+                <div className="const">
+                    <pre > 
+                    {first}'{linkedIn}','{ghLink}','{discord}','{email}','{CV}'{close}
+                    {last}
+                    </pre>
+                </div>
             </div>
-        </div>
-        <NavBar/>
+            <NavBar/>
         </>
     )
 }

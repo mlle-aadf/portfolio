@@ -92,7 +92,7 @@ body {
 
 
 
-.var {
+.const {
     line-Height: 1.5;
     margin: 0.5rem 0 -2rem -2rem;
 
