@@ -1,4 +1,4 @@
-import { TypeAnimation } from "react-type-animation"
+import { TypeAnimation } from "react-type-animation";
 import styled from "styled-components";
 
 import NavBar from "./NavBar";
@@ -9,7 +9,8 @@ const Home = () => {
           <ADF>A | ADF </ADF>
           <TypeAnimation
             className={"type"}
-            sequence={["Hello! I'm Alexandra.", 400,  "I'm a full-stack developer.", 350, "In other words,", 250, "I create cool stuff with code.", 350, "Welcome to my website ٩(◕‿◕)۶ "]}
+            sequence={["Hello! I'm Alexandra. I'm a full-stack developer.", 350, "In other words, I create cool stuff with code.", 350, "Welcome to my website ٩(◕‿◕)۶ "]}
+            // sequence={["Hello! I'm Alexandra.", 400,  "I'm a full-stack developer.", 350, "In other words,", 250, "I create cool stuff with code.", 350, "Welcome to my website ٩(◕‿◕)۶ "]}
             // sequence={["code ninja", 1000, "web wizard", 1000, "full-stack developer"]}
             // sequence={["<> insert clever tagline here </> "]}
             wrapper="span"
