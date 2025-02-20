@@ -1,6 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-
 const GlobalStyles = createGlobalStyle`
 
 body {
@@ -26,22 +25,6 @@ body {
     }
 }
 
-.navbar {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    bottom: 10%;
-    width: 100vw;
-    height: 1.5rem;
-    font-size: 1rem;
-    
-    @media screen and (min-width: 640px)
-    {
-        font-size: 1.25rem;
-        bottom: 10%;
-    }
-}
 
 .about {
     margin: 0;
@@ -52,10 +35,7 @@ body {
     width: 95vw;
     height: 70vh;
     font-size: 0.9rem;
-    
-    /* font-weight: lighter; */
     line-height: 200%;
-    /* border: 2px solid fuchsia; */
     
     animation: fadeIn 5s ease-in 0 infinite;
     
@@ -131,7 +111,5 @@ body {
 
 
 `
-
-
 
 export default GlobalStyles;

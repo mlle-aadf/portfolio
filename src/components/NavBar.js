@@ -1,19 +1,36 @@
-import styled from "styled-components"
 import { NavLink } from "react-router-dom"
+import styled from "styled-components"
 
 const NavBar = () =>  {
         
     return(
         <>
-        <div  className="navbar">
+        <Nav>
             
             <StyledLink to={'/about'} >about</StyledLink>
             <p>|</p>
             <StyledLink to={'/gallery'} >gallery</StyledLink>
-        </div>
+        </Nav>
         </>
     )
 }
+
+const Nav = styled.nav`
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 10%;
+    width: 100vw;
+    height: 1.5rem;
+    font-size: 1rem;
+    
+    @media screen and (min-width: 640px)
+    {
+        font-size: 1.25rem;
+        bottom: 10%;
+    }
+`
 
 const StyledLink = styled(NavLink)`
     margin: 1rem;
