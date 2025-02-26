@@ -66,7 +66,7 @@ const HomeContainer = styled.div`
   justify-content: center;
   font-size: ${(props) => (props.isLargeScreen ? '1.2rem' : '1rem')};
   margin: ${(props) => (props.isLargeScreen ? '0 0 0 10%' : '0')};
-  overflow: hidden; /* Prevent overflow */
+  overflow: hidden;
 `;
 
 export default Home;
