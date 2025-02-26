@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <>
       <HomeContainer isLargeScreen={isLargeScreen}>
-        <ADF>A | ADF </ADF>
+        <ADF isLargeScreen={isLargeScreen}>A | ADF </ADF>
         <TypeAnimation
           className={"type"}
           sequence={[ isLargeScreen ? deskSequence : mobSequence]}
@@ -51,20 +51,22 @@ const Home = () => {
 const ADF = styled.h1`
   display: inline-block;
   font-weight: 200;
-  font-size: 3rem;
+  font-size: ${(props) => (props.isLargeScreen ? '3rem' : '2.5rem')};
   font-family: "Montserrat", sans-serif;
+  margin-left: ${(props) => (props.isLargeScreen ? "0" : '15%')};
+  margin-top: -5vh;
+  margin-bottom: ${(props) => (props.isLargeScreen ? '' : '2.5rem')};
 `;
 
 const HomeContainer = styled.div`
-  height: 100vh;
-  width: 90vw;
-  margin-right: 0.5rem;
+  height: 98vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: ${(props) => (props.isLargeScreen ? '1.2rem' : '1rem')};
-  text-align: ${(props) => (props.isLargeScreen ? 'left' : 'right')};
   margin: ${(props) => (props.isLargeScreen ? '0 0 0 10%' : '0')};
+  overflow: hidden; /* Prevent overflow */
 `;
 
 export default Home;

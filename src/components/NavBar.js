@@ -19,16 +19,16 @@ const Nav = styled.nav`
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    bottom: 10%;
+    position: absolute;
+    bottom: 5%;
     width: 100vw;
-    height: 1.5rem;
+    height: 1.5vh;
     font-size: 1rem;
     
     @media screen and (min-width: 640px)
     {
         font-size: 1.25rem;
-        bottom: 10%;
+        /* bottom: 10%; */
     }
 `
 
