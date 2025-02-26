@@ -7,9 +7,9 @@ import NavBar from "./NavBar";
 const Home = () => {
   const isLargeScreen = useMediaQuery({ query: '(min-width: 640px)' });
 
-  const mobSequence = `Hello! I'm Alexandra.\nI'm a full-stack developer.\n\nIn other words,\nI create cool stuff with code.\n\nWelcome to my website ٩(◕‿◕)۶ `
+  const mobSequence = `Hello world! I'm Alexandra.\nI'm a full-stack developer.\n\nIn other words,\nI create cool stuff with code.\n\nWelcome to my website ٩(◕‿◕)۶ `
 
-  const deskSequence = `Hello! I'm Alexandra. I'm a full-stack developer.\nIn other words, I create cool stuff with code.\n\nWelcome to my website ٩(◕‿◕)۶ `
+  const deskSequence = `Hello world! I'm Alexandra. I'm a full-stack developer.\nIn other words, I create cool stuff with code.\n\nWelcome to my website ٩(◕‿◕)۶ `
 
   const mobStyle = {
     whiteSpace: "pre-line",
